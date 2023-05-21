@@ -18,6 +18,7 @@ public class AlistCollection {
         Collections.reverse(list);
         System.out.println("------sort DESC------");
         display(list);
+        System.out.println("---wybieramy 3 elementy listy " + list.get(3));
     }
 
     static void display (ArrayList<String> list){
