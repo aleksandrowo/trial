@@ -13,5 +13,14 @@ public class Kolejka {
         queue.poll();
         queue.poll();
         System.out.println(queue + "\t 2 osoby załatwione");
+        queue.remove();
+        System.out.println(queue + "\t 1 osoba została usunięta");
+        queue.poll();
+        try {
+            queue.remove();
+        }catch(Exception e) {
+            System.out.println("Błąd : " + e);
+        }
+        System.out.println(queue);
     }
 }
