@@ -1,0 +1,15 @@
+# Aleksandra 23987, c7
+
+## Description
+
+### This is a graduation project. 
+
+Inside you can see files:
+
+: AhashSet which show cities and what happen if we repead one city again.
+
+: AlistCollection which show people and sorting them by names
+
+: AlinkedList which show cities and option to remove them and find by name
+
+: Kolejka witch show queue numbers, poll and remove option
