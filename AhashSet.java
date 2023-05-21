@@ -11,5 +11,8 @@ public class AhashSet {
         hashSet.add("Tennesse");
         hashSet.add("Florida");
         System.out.println(hashSet);
+        hashSet.add("Florida");
+        System.out.println(" Drugi raz wpisana została Florida ");
+        System.out.println(hashSet);
     }
 }
