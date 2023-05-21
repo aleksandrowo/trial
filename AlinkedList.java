@@ -14,6 +14,11 @@ public class AlinkedList {
         System.out.println("-----po usunieciu index 4----" + list.get(4));
         list.remove( 4);
         wyswietlMiasta(list);
+        String szukane = "Otwock";
+        if(list.contains(szukane) == true )
+            System.out.println("Znaleziono " + szukane);
+        else
+            System.out.println("Nie znaleziono " + szukane);
     }
     static void wyswietlMiasta (LinkedList<String> list){
         for (String e: list)
