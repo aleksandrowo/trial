@@ -15,6 +15,9 @@ public class AlistCollection {
         Collections.sort(list);
         System.out.println("------sort ASC-------");
         display(list);
+        Collections.reverse(list);
+        System.out.println("------sort DESC------");
+        display(list);
     }
 
     static void display (ArrayList<String> list){
